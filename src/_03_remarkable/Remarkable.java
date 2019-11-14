@@ -6,6 +6,16 @@ import javax.swing.JOptionPane;
 
 public class Remarkable {
 public static void main(String[] args) {
+	String urName = JOptionPane.showInputDialog("Whats your name?");
+	if (urName.equals("Joe")) {
+		JOptionPane.showMessageDialog(null, "Joe is awesome at swimming!");
+	}
+	else if (urName.equals("Daniel")){
+		JOptionPane.showMessageDialog(null, "Daniel is good at videogames!");
+	}
+	else {
+		JOptionPane.showMessageDialog(null, "I don't know you.");
+	}
 
 		// 1. Save something remarkable about each person in a variable.
 
